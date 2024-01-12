@@ -8,6 +8,8 @@
 //   );
 // }
 
+import TodoList from "./TodoList";
+
 
 
 // export default App;
@@ -34,13 +36,14 @@
 
 
 
-import Gallery, { Profile as Card } from "./Gallery";
+// import Gallery, { Profile as Card } from "./Gallery";
 export default function App() {
   return (
     <>
       {/* <Profile /> */}
-      <Card/>   
-      <Gallery />
+      {/* <Card/>   
+      <Gallery /> */}
+     <TodoList/>
     </>
   );
 }
